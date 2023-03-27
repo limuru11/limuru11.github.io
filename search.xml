@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>BLOG!</title>
+    <url>/2023/03/20/BLOG/</url>
+    <content><![CDATA[<p>这个博客来介绍一下我的坑，原本我是想来久违的运营我的博客的，结果很久没用了导致我不知道怎么写博客，怎么上传写好的博客等等，既忘了用git指令又忘了github desktop 怎么使用，于是就导致我之前的东西都没了，我只好从零开始搭建我的博客。</p>
+<img src="https://s2.loli.net/2023/03/20/kvBRwza8C4rVbxj.jpg" alt="FC683B861C637FFCF4BD16D41E53B38D" style="zoom:50%;" />
+
+<img src="https://s2.loli.net/2023/03/20/JAR9mX5duWCD27q.png" alt="image-20230320213729605" style="zoom:50%;" />
+
+<p>​		其实早在去年6月多我就有想过要好好运营博客的，为此还买了Typora，但是由于我用的图床smms需要梯子才能连上，就导致我写的博客里的大多图片都无法通过picgo正常上传，于是我就继续摆了；直到最近才又想着运营博客（主要是想分享一下我使用vits这个项目的感受等）。于是我在今天又来尝试着解决图床问题，这次是成功把图床的问题解决了（因为smms官网弄了一个国内域名的备用域名smms.app)，虽然过程依然十分曲折但总归是搞定了图床的问题了。接着就是想写个博客看看，结果就出现一开始所说的问题，导致之前的东西全坏了（指图片等加载不出来），于是我一咬牙决定全部推到重来，接着便开始了另一层折磨。</p>
+<img src="https://s2.loli.net/2023/03/20/Yd2eg9hFij1Nxuy.gif" alt="img" style="zoom:25%;" />
+
+<p>​		原本我以为跟着之前的教程一步一步走就没问题的了，但是由于node及hexo等的版本更新，我之前看的教程中有的指令已经不再被支持或者说使用了，于是就导致我在搭建博客的过程中又遇到了新的问题了。这一部分我就不细说了吧（主要是懒得截图以及找之前翻看的解决方法），解决方法无非就是重装、重启等常见方法，如果你在搭建博客的过程（使用hexo）有遇到各种问题的话，使用必应等搜索基本上都是能搜到答案的。</p>
+<p><img src="https://s2.loli.net/2023/03/20/mNYKVv4tbZfycE5.gif" alt="img"></p>
+<p>​		再说一个之前困惑我的问题，就是为什么上传到我仓库的人不是我的账号而是其他的<img src="https://s2.loli.net/2023/03/20/2Q79n3vUSDP1Ndc.png" alt="image-20230320215404035"></p>
+<p>比如说我的账号应当是limuru11那个账号，结果上传的人却成了我之前创的小号，后来才知道我本地的git保存的账号和邮箱错了所以才导致成了我的小号上传的了（乐），后面通过俩个指令改改就行了。</p>
+<p>​		最后把我本次搭建博客看的教程以及相关的解决方法都列在下边吧</p>
+<p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E5%86%99%E5%8D%9A%E5%AE%A2">使用hexo+github搭建免费个人博客详细教程 - 我是小茗同学 - 博客园 (cnblogs.com)</a></p>
+<p><a href="https://blog.csdn.net/qq_39085442/article/details/109581405">git上传代码的账户名不是本人的问题_提交代办上传人名字是上一个开发的_xqxing的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/SqlloveSyn/article/details/127401278"> 解决npm ERR! Cannot read properties of null (reading ‘pickAlgorithm‘)报错问题_cannot read properties of null (reading ‘isdescend_键盘敲烂工资上万的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/qq_21808961/article/details/84476504"> hexo d命令报错 ERROR Deployer not found: git_蓝蓝223的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/dante1987/article/details/127706832?ops_request_misc=%7B%22request_id%22:%22167932080316800225566539%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=167932080316800225566539&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-127706832-null-null.142%5Ev74%5Epc_search_v2,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&utm_term=smms%E5%9B%BE%E5%BA%8A&spm=1018.2226.3001.4187">Typora如何把图片上传到图床smms.app_smms图床_黯然神伤888的博客-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>BLOG</category>
+      </categories>
+      <tags>
+        <tag>summary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于So-Vits项目的学习</title>
+    <url>/2023/03/27/So-Vits/</url>
+    <content><![CDATA[<p>​		这个博客就来分享一下我在B站看到的一个比较有意思的项目，主要就是通过深度学习（AI）个人的声音以后可以通过推理来模拟出你所训练的声音。以下是使用B站up主<strong>Mahiro_desu</strong>（UID：30084949）分享的真寻（最近刚完结没多久的1月新番《别当欧尼酱了》的主角）模型推理的唱的一首歌</p>
+<p><audio id="audioPlayer" controlslist="nodownload" controls="" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdnhTZFMxY2YtRUtnUW1UV21KNTF2ajdsNjBVP2U9T0tDYjdO.mp3" style="position: relative; width: 565px; height: 54px; left: 0px; top: 0px;"></audio></p>
+<img src="https://s2.loli.net/2023/03/27/CLuYnrSGWAzNxEy.jpg" alt="img" style="zoom: 25%;" />
+
+<p>原唱是Aimer的March of times（选这首歌是因为看了泛式的最新mad），我们可以来听着比较一下（对于看过番的人来说更能体会到推理的声音和原声音有多像吧）</p>
+<p><audio id="audioPlayer" controlslist="nodownload" controls="" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdnhTZFMxY2YtRUtnUXJpUkJhNmdoeHlKenBIP2U9YUZXeW9k.mp3" style="position: relative; width: 565px; height: 54px; left: 0px; top: 0px;"></audio></p>
+<p>​		AI在最近都是比较火的，不管是chatGPT还是novelAI都掀起了一定的AI火。</p>
+<img src="https://s2.loli.net/2023/03/27/lqHC3mFt9rcWpAy.jpg" alt="mmexport1678762168358" style="zoom:25%;" />
+
+<img src="https://s2.loli.net/2023/03/27/efNXpBbaUtnPgZI.jpg" alt="bd99a3fa92301f7" style="zoom: 50%;" />
+
+<p>​				（图1为在北京奥森公园拍的照片，图2为我用novelAI跑的图片）</p>
+<p>chatGPT爆火我觉得不单单是因为他能聊天，更重要的是他懂各种各样的知识，比如能几秒钟用C++写好一个快速排序的程序，用SQL语言查询数据库等等。这些我都蛮感兴趣的且都尝试过。不过合成音声的话并没有那么爆火，可能是因为他能用的范围比较少（至少我看到的大多数使用合成音声的视频都是训练了他们喜欢的up主然后用练好的模型来唱那些up没唱过的歌），要说在现实的应用的话应该就只有搞诈骗了吧（毕竟训练好的模型是真的像）。</p>
+<img src="https://s2.loli.net/2023/03/27/tivJQMaUbeOHxr1.gif" alt="img" style="zoom:25%;" />
+
+<p>​		接下来就稍微介绍一下vits是怎么办到合成音声的吧（详细介绍的话B站有一堆视频手把手教你怎么做）	</p>
+<p>1.准备好数据集，一般都需要1h左右纯净的人声，不能有任何杂音的那种，因为会影响训练的模型的效果。准备数据集一般会使用到另外几个项目，分别用来分离纯净的人声以及将分离好的人声切成5-10s的片段（这个时候最折磨的就是得手动筛选不合适的切片）。</p>
+<img src="https://s2.loli.net/2023/03/27/VUmhWyXPoO1SiIF.jpg" alt="img" style="zoom:25%;" />
+
+<p>2.训练，这里主要是使用vits这个项目进行，把1中准备好的那些小片段放在指定的目录下然后进行训练，之所以要切成片成几秒的就是为了方便训练，因为光是这样就需要至少8g显存了，更不用说需要的算力。（这时候应该来一句f**k u 英伟达）</p>
+<img src="https://s2.loli.net/2023/03/20/mNYKVv4tbZfycE5.gif" style="zoom: 50%;" />
+
+<p>3.推理，也是主要使用vits进行你训练好的模型推理，推理所需要的音频也是纯净的人声（不然效果会很怪），而且每次推理都不能超过90s（一般根据你的显卡的显存来决定时间的长短），此时就得到了你所训练的人的声音所说&#x2F;唱的纯人声了。</p>
+<p>4.最后则是把你所推理的模型拼上原本的BGM，这样你就能听到你所训练的人所唱的歌啦。</p>
+<p>说起来是很容易的，但实际做的时候会遇到各种问题，能做出来实在是很不容易的。</p>
+<img src="file:///C:\Users\AWKAKNING\Documents\Tencent Files\820146005\Image\C2C\3831EC7361431D5180536911CDDE9CFD.gif" alt="img" style="zoom: 50%;" />
+
+<p>​		不知道以后会不会有相关的法律等来限制AI唱歌（AI画图所喂的图大多也是别人辛辛苦苦画的，大概率没版权），因为训练别人的声音大多也是没有授权的，而且可能有些别有用心的人用训练好的比较火的人来诈骗也说不定（训练好的模型能唱歌也肯定能说话嘛）。</p>
+<p>​		最后分享几个我觉得比较生草的AI唱歌的项目吧。</p>
+<p><a href="https://www.bilibili.com/video/BV1VL411o7Qx/?spm_id_from=333.337.search-card.all.click&vd_source=d9ba338eaffbe5707c1f7a974e8a179c">【AI周杰伦】群青，但是周杰伦唱_哔哩哔哩_bilibili</a></p>
+<p><a href="https://www.bilibili.com/video/BV1v84y1P7AP/?spm_id_from=333.337.search-card.all.click&vd_source=d9ba338eaffbe5707c1f7a974e8a179c">【ai周杰伦】这么可爱真是抱歉_哔哩哔哩_bilibili</a></p>
+<p><a href="https://www.bilibili.com/video/BV1xL41197za/?spm_id_from=333.337.search-card.all.click&vd_source=d9ba338eaffbe5707c1f7a974e8a179c">【AI Dio】❤️ D I O 想 变 得 可 爱 ❤️_哔哩哔哩_bilibili</a></p>
+<p>放上我所观看的教程视频</p>
+<p><a href="https://www.bilibili.com/video/BV1H24y187Ko/?spm_id_from=333.788.top_right_bar_window_view_later.content.click&vd_source=d9ba338eaffbe5707c1f7a974e8a179c">【AI翻唱&#x2F;SoVITS 4.0】手把手教你老婆唱歌给你听~无需配置环境的本地训练&#x2F;推理教程懒人整合包_哔哩哔哩_bilibili</a></p>
+<p>只能说AI</p>
+<img src="https://s2.loli.net/2023/03/27/NZCbDKw9j5zyouY.jpg" alt="img" style="zoom:50%;" />
+
+]]></content>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+</search>
